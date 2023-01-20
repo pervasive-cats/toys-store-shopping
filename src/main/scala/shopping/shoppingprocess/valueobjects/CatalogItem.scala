@@ -5,6 +5,11 @@
  */
 
 package io.github.pervasivecats
+package shopping.shoppingprocess.valueobjects
 
-@main
-def main(): Unit = println("Hello world!")
+import shopping.IdNumber
+
+trait CatalogItem {
+
+  val id: IdNumber
+}
