@@ -8,6 +8,7 @@ package io.github.pervasivecats
 package shopping.shoppingprocess.events
 
 import shopping.shoppingprocess.valueobjects.Customer
+
 trait CustomerHasPaid {
 
   val customer: Customer
