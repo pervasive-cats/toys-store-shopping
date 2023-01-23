@@ -7,9 +7,7 @@
 package io.github.pervasivecats
 package shopping
 
-type Validated[A] = Either[ValidationError, A]
+import eu.timepit.refined.api.Refined
+import eu.timepit.refined.numeric.NonNegative
 
-trait ValidationError {
-
-  val message: String
-}
+type IdNumber = Long Refined NonNegative
