@@ -7,4 +7,4 @@
 package io.github.pervasivecats
 package shopping.shoppingprocess.entities
 
-trait TerminatedShoppingProcess extends ShoppingProcess {}
+trait TerminatedShoppingProcess extends ShoppingProcess

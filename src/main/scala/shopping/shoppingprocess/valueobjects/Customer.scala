@@ -10,12 +10,12 @@ package shopping.shoppingprocess.valueobjects
 import eu.timepit.refined.api.Refined
 import eu.timepit.refined.string.MatchesRegex
 
-type EmailString = String Refined
+type Email = String Refined
   MatchesRegex[
     "[a-z0-9!#$%&'*+/=?^_`{|}~\\-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~\\-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
   ]
 
 trait Customer {
 
-  val email: EmailString
+  val email: Email
 }
