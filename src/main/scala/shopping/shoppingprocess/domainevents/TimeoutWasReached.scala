@@ -5,11 +5,11 @@
  */
 
 package io.github.pervasivecats
-package shopping.shoppingprocess.events
+package shopping.shoppingprocess.domainevents
 
 import shopping.shoppingprocess.valueobjects.Customer
 
-trait CustomerUnregistered {
+trait TimeoutWasReached {
 
   val customer: Customer
 }

@@ -7,7 +7,7 @@
 package io.github.pervasivecats
 package shopping.shoppingprocess.services
 
-import shopping.shoppingprocess.events.CustomerUnregistered
+import shopping.shoppingprocess.domainevents.CustomerUnregistered
 
 trait CustomerStateHandlers {
 

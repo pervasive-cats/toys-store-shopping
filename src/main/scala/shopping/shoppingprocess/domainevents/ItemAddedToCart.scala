@@ -5,7 +5,7 @@
  */
 
 package io.github.pervasivecats
-package shopping.shoppingprocess.events
+package shopping.shoppingprocess.domainevents
 
 import shopping.shoppingprocess.valueobjects.{CatalogItem, Customer, ItemId, Store}
 

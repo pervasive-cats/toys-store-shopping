@@ -7,7 +7,7 @@
 package io.github.pervasivecats
 package shopping.shoppingprocess.services
 
-import shopping.shoppingprocess.events.*
+import shopping.shoppingprocess.domainevents.*
 
 trait ShoppingProcessHandlers {
 
