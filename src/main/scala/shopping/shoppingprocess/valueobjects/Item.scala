@@ -10,6 +10,8 @@ package shopping.shoppingprocess.valueobjects
 trait Item {
 
   val catalogItem: CatalogItem
+
   val itemId: ItemId
+
   val count: Count
 }

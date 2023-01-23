@@ -12,7 +12,9 @@ import shopping.shoppingprocess.valueobjects.{Cart, Item, Store}
 trait StartedShoppingProcess extends ShoppingProcess {
 
   val store: Store
+
   val cart: Cart
+
   val cartContents: List[Item]
 
   def addItemToCart(item: Item): StartedShoppingProcess

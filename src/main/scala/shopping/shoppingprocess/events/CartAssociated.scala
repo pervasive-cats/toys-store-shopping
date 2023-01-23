@@ -12,6 +12,8 @@ import shopping.shoppingprocess.valueobjects.{Cart, Customer, Store}
 trait CartAssociated {
 
   val customer: Customer
+
   val cart: Cart
+
   val store: Store
 }

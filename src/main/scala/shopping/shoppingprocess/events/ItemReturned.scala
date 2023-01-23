@@ -12,6 +12,8 @@ import shopping.shoppingprocess.valueobjects.{CatalogItem, ItemId, Store}
 trait ItemReturned {
 
   val store: Store
+
   val catalogItem: CatalogItem
+
   val itemId: ItemId
 }

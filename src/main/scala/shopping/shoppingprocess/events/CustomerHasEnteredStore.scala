@@ -12,5 +12,6 @@ import shopping.shoppingprocess.valueobjects.{Customer, Store}
 trait CustomerHasEnteredStore {
 
   val customer: Customer
+
   val store: Store
 }

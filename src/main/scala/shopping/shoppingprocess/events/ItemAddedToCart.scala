@@ -12,7 +12,10 @@ import shopping.shoppingprocess.valueobjects.{CatalogItem, Customer, ItemId, Sto
 trait ItemAddedToCart {
 
   val customer: Customer
+
   val catalogItem: CatalogItem
+
   val itemId: ItemId
+
   val store: Store
 }
