@@ -7,4 +7,9 @@
 package io.github.pervasivecats
 package shopping.shoppingprocess.entities
 
-trait TerminatedShoppingProcess extends ShoppingProcess {}
+import shopping.shoppingprocess.valueobjects.Store
+
+trait NotStartedShoppingProcessOps {
+
+  def customerEntersStore(store: Store): StartingShoppingProcess
+}

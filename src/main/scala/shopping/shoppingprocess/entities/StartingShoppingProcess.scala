@@ -7,13 +7,9 @@
 package io.github.pervasivecats
 package shopping.shoppingprocess.entities
 
-import shopping.shoppingprocess.valueobjects.{Cart, Store}
+import shopping.shoppingprocess.valueobjects.Store
 
 trait StartingShoppingProcess extends ShoppingProcess {
 
   val store: Store
-
-  def associateCart(cart: Cart): StartedShoppingProcess
-
-  def cancel(): NotStartedShoppingProcess
 }

@@ -16,12 +16,4 @@ trait StartedShoppingProcess extends ShoppingProcess {
   val cart: Cart
 
   val cartContents: List[Item]
-
-  def addItemToCart(item: Item): StartedShoppingProcess
-
-  def removeItemFromCart(item: Item): StartedShoppingProcess
-
-  def customerLeavesStore(): TerminatingShoppingProcess
-
-  def cancel(): NotStartedShoppingProcess
 }

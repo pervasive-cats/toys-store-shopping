@@ -7,4 +7,9 @@
 package io.github.pervasivecats
 package shopping.shoppingprocess.entities
 
-trait TerminatedShoppingProcess extends ShoppingProcess {}
+trait TerminatingShoppingProcessOps {
+
+  def timeoutIsReached(): TerminatedShoppingProcess
+
+  def cancel(): NotStartedShoppingProcess
+}
